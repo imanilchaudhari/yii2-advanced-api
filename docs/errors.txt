@@ -1,0 +1,159 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 39
+            [file] => api/models/User.php
+            [message] => Method tableName has no parent to inherit from in api\models\User.
+        )
+
+    [1] => Array
+        (
+            [line] => 47
+            [file] => api/models/User.php
+            [message] => Method behaviors has no parent to inherit from in api\models\User.
+        )
+
+    [2] => Array
+        (
+            [line] => 63
+            [file] => api/models/User.php
+            [message] => Method rules has no parent to inherit from in api\models\User.
+        )
+
+    [3] => Array
+        (
+            [line] => 98
+            [file] => api/models/User.php
+            [message] => Method findIdentity has no parent to inherit from in api\models\User.
+        )
+
+    [4] => Array
+        (
+            [line] => 106
+            [file] => api/models/User.php
+            [message] => Method findIdentityByAccessToken has no parent to inherit from in api\models\User.
+        )
+
+    [5] => Array
+        (
+            [line] => 160
+            [file] => api/models/User.php
+            [message] => Method getId has no parent to inherit from in api\models\User.
+        )
+
+    [6] => Array
+        (
+            [line] => 168
+            [file] => api/models/User.php
+            [message] => Method getAuthKey has no parent to inherit from in api\models\User.
+        )
+
+    [7] => Array
+        (
+            [line] => 176
+            [file] => api/models/User.php
+            [message] => Method validateAuthKey has no parent to inherit from in api\models\User.
+        )
+
+    [8] => Array
+        (
+            [file] => api/modules/v1/actions/IndexAction.php
+            [message] => broken link to \yii\data\ActiveDataProvider in api\modules\v1\actions\IndexAction
+        )
+
+    [9] => Array
+        (
+            [line] => 59
+            [file] => api/modules/v1/components/ActiveController.php
+            [message] => Method init has no parent to inherit from in api\modules\v1\components\ActiveController.
+        )
+
+    [10] => Array
+        (
+            [line] => 70
+            [file] => api/modules/v1/components/ActiveController.php
+            [message] => Method actions has no parent to inherit from in api\modules\v1\components\ActiveController.
+        )
+
+    [11] => Array
+        (
+            [line] => 109
+            [file] => api/modules/v1/components/ActiveController.php
+            [message] => Method verbs has no parent to inherit from in api\modules\v1\components\ActiveController.
+        )
+
+    [12] => Array
+        (
+            [file] => api/modules/v1/components/ActiveController.php
+            [message] => broken link to \yii\db\ActiveRecordInterface in api\modules\v1\components\ActiveController
+        )
+
+    [13] => Array
+        (
+            [file] => api/modules/v1/components/ActiveController.php
+            [message] => broken link to \yii\base\Model::scenarios() in api\modules\v1\components\ActiveController
+        )
+
+    [14] => Array
+        (
+            [file] => api/modules/v1/components/ActiveController.php
+            [message] => broken link to \yii\base\Model::scenarios() in api\modules\v1\components\ActiveController
+        )
+
+    [15] => Array
+        (
+            [file] => api/modules/v1/components/ActiveController.php
+            [message] => broken link to \yii\web\ForbiddenHttpException in api\modules\v1\components\ActiveController
+        )
+
+    [16] => Array
+        (
+            [line] => 32
+            [file] => api/modules/v1/models/Page.php
+            [message] => Method tableName has no parent to inherit from in api\modules\v1\models\Page.
+        )
+
+    [17] => Array
+        (
+            [line] => 40
+            [file] => api/modules/v1/models/Page.php
+            [message] => Method rules has no parent to inherit from in api\modules\v1\models\Page.
+        )
+
+    [18] => Array
+        (
+            [line] => 57
+            [file] => api/modules/v1/models/Page.php
+            [message] => Method attributeLabels has no parent to inherit from in api\modules\v1\models\Page.
+        )
+
+    [19] => Array
+        (
+            [line] => 32
+            [file] => api/modules/v1/models/Page.php
+            [message] => Method tableName has no parent to inherit from in api\modules\v1\models\Page.
+        )
+
+    [20] => Array
+        (
+            [line] => 40
+            [file] => api/modules/v1/models/Page.php
+            [message] => Method rules has no parent to inherit from in api\modules\v1\models\Page.
+        )
+
+    [21] => Array
+        (
+            [line] => 57
+            [file] => api/modules/v1/models/Page.php
+            [message] => Method attributeLabels has no parent to inherit from in api\modules\v1\models\Page.
+        )
+
+    [22] => Array
+        (
+            [line] => 29
+            [file] => api/modules/v1/models/search/Page.php
+            [message] => Method scenarios has no parent to inherit from in api\modules\v1\models\search\Page.
+        )
+
+)

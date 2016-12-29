@@ -1,0 +1,26 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /*/page/*
+
+# Directories
+Disallow: /admin/
+Disallow: /employee/
+Disallow: /adminer/
+Disallow: /api/
+Disallow: /assets/
+Disallow: /old/
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /ico/
+Disallow: /images/
+Disallow: /img/
+Disallow: /uploads/
+
+# Files
+Disallow: /cron.log
+Disallow: /cron_trace.log
+Disallow: /*.css
+Disallow: /*.js

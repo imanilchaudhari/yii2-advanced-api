@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/2ea9914c/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/bf35a433/solarized_light.css" rel="stylesheet">
+<link href="./assets/8a009fe8/style.css" rel="stylesheet">
+<script src="./assets/8a68d16b/jquery.js"></script>
+<script src="./assets/2ea9914c/js/bootstrap.js"></script>
+<script src="./assets/4b616ee1/jssearch.js"></script>    <title>CreateAction, api\modules\v1\actions\CreateAction - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w25" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w25-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w25-collapse" class="collapse navbar-collapse"><ul id="w26" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-18" data-toggle="collapse" data-parent="#navigation">api\models <b class="caret"></b></a><div id="navigation-18" class="submenu panel-collapse collapse"><a class="list-group-item" href="./api-models-user.html">User</a></div>
+<a class="list-group-item" href="#navigation-19" data-toggle="collapse" data-parent="#navigation">api\modules\v1 <b class="caret"></b></a><div id="navigation-19" class="submenu panel-collapse collapse"><a class="list-group-item" href="./api-modules-v1-module.html">Module</a></div>
+<a class="list-group-item active" href="#navigation-20" data-toggle="collapse" data-parent="#navigation">api\modules\v1\actions <b class="caret"></b></a><div id="navigation-20" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./api-modules-v1-actions-createaction.html">CreateAction</a>
+<a class="list-group-item" href="./api-modules-v1-actions-deleteaction.html">DeleteAction</a>
+<a class="list-group-item" href="./api-modules-v1-actions-indexaction.html">IndexAction</a>
+<a class="list-group-item" href="./api-modules-v1-actions-optionsaction.html">OptionsAction</a>
+<a class="list-group-item" href="./api-modules-v1-actions-updateaction.html">UpdateAction</a>
+<a class="list-group-item" href="./api-modules-v1-actions-viewaction.html">ViewAction</a></div>
+<a class="list-group-item" href="#navigation-21" data-toggle="collapse" data-parent="#navigation">api\modules\v1\components <b class="caret"></b></a><div id="navigation-21" class="submenu panel-collapse collapse"><a class="list-group-item" href="./api-modules-v1-components-activecontroller.html">ActiveController</a></div>
+<a class="list-group-item" href="#navigation-22" data-toggle="collapse" data-parent="#navigation">api\modules\v1\controllers <b class="caret"></b></a><div id="navigation-22" class="submenu panel-collapse collapse"><a class="list-group-item" href="./api-modules-v1-controllers-pagecontroller.html">PageController</a></div>
+<a class="list-group-item" href="#navigation-23" data-toggle="collapse" data-parent="#navigation">api\modules\v1\models <b class="caret"></b></a><div id="navigation-23" class="submenu panel-collapse collapse"><a class="list-group-item" href="./api-modules-v1-models-page.html">Page</a></div>
+<a class="list-group-item" href="#navigation-24" data-toggle="collapse" data-parent="#navigation">api\modules\v1\models\search <b class="caret"></b></a><div id="navigation-24" class="submenu panel-collapse collapse"><a class="list-group-item" href="./api-modules-v1-models-search-page.html">Page</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class api\modules\v1\actions\CreateAction</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="api-modules-v1-actions-createaction.html">api\modules\v1\actions\CreateAction</a> &raquo;
+yii\rest\CreateAction</td></tr>
+                                        <tr><th>Available since version</th><td>2.0</td></tr>
+            </table>
+
+<div class="class-description">
+    <p><strong>CreateAction implements the API endpoint for creating a new model from the given data.</strong></p>
+    
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="$scenario">
+        <td><a href="api-modules-v1-actions-createaction.html#$scenario-detail">$scenario</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td>The scenario to be assigned to the new model before it is validated and saved.</td>
+        <td><a href="api-modules-v1-actions-createaction.html">api\modules\v1\actions\CreateAction</a></td>
+    </tr>
+            <tr id="$viewAction">
+        <td><a href="api-modules-v1-actions-createaction.html#$viewAction-detail">$viewAction</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td>The name of the view action.</td>
+        <td><a href="api-modules-v1-actions-createaction.html">api\modules\v1\actions\CreateAction</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="run()">
+        <td><a href="api-modules-v1-actions-createaction.html#run()-detail">run()</a></td>
+        <td>Creates a new model.</td>
+        <td><a href="api-modules-v1-actions-createaction.html">api\modules\v1\actions\CreateAction</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+<h2>Property Details</h2>
+
+<div class="property-doc">
+
+    <div class="detail-header h3" id="$scenario-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="api-modules-v1-actions-createaction.html#$scenario-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $scenario        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>The scenario to be assigned to the new model before it is validated and saved.</p>
+
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <a href="api-modules-v1-actions-createaction.html#$scenario-detail">$scenario</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;\</span><span style="color: #0000BB">yii</span><span style="color: #007700">\</span><span style="color: #0000BB">base</span><span style="color: #007700">\</span><span style="color: #0000BB">Model</span><span style="color: #007700">::</span><span style="color: #0000BB">SCENARIO_DEFAULT</span></div>
+
+
+    <div class="detail-header h3" id="$viewAction-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="api-modules-v1-actions-createaction.html#$viewAction-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $viewAction        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>The name of the view action. This property is need to create the URL when the model is successfully created.</p>
+
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <a href="api-modules-v1-actions-createaction.html#$viewAction-detail">$viewAction</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'view'</span></div>
+
+</div>
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="run()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="api-modules-v1-actions-createaction.html#run()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        run()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Creates a new model.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveRecordInterface</span> <strong><a href="api-modules-v1-actions-createaction.html#run()-detail">run</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col">\yii\db\ActiveRecordInterface</td>
+                  <td class="param-desc-col"><p>The model newly created</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col">\yii\web\ServerErrorHttpException</td>
+                  <td class="param-desc-col"><p>if there is any error when creating the model</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Thu, 29 Dec 2016 07:12:45 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

@@ -1,0 +1,277 @@
+#image-browser {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fcfcfc;
+}
+#image-browser .browser-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    z-index: 150;
+    border-right: 1px solid #cccccc;
+    background-color: #f3f3f3;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+#image-browser .browser-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+}
+#image-browser .browser-nav-tabs {
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+#image-browser .toggle-menu {
+    display: none;
+}
+#image-library {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#image-library .media-filter {
+    position: absolute;
+    left: 0;
+    right: 267px;
+    height: 50px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+}
+#image-library .library-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 55px;
+    padding: 10px;
+    text-align: right;
+    border-top: 1px solid #f4f4f4;
+}
+#image-library .library-left {
+    position: absolute;
+    top: 50px;
+    right: 450px;
+    bottom: 55px;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#image-library .library-right {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 55px;
+    background-color: #f3f3f3;
+    width: 450px;
+    border-left: 1px solid #cccccc;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+#image-library .media-container {
+    margin: 0;
+    padding: 0;
+}
+#image-library .media-item {
+    position: relative;
+    float: left;
+    width: 16.66%;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+}
+#image-library .media-item.ui-selected {
+    -webkit-box-shadow: inset 0 0 0 1px #ffffff, inset 0 0 0 5px #1e8cbe;
+    box-shadow: inset 0 0 0 1px #ffffff, inset 0 0 0 5px #1e8cbe;
+}
+#image-library .item {
+    position: relative;
+}
+#image-library .item > img {
+    width: 100%;
+}
+#image-library .item > .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 80%;
+    padding: 3px 6px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+}
+#image-library .item > .description > span {
+    overflow: hidden;
+    display: block;
+}
+#image-library .item > .selected-check {
+    padding: 5px;
+    background: #1e8cbe;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    color: #ffffff;
+    border: 1px solid #1e8cbe;
+    display: none;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+#image-library .item > .selected-check:before {
+    content: "\f00c";
+}
+#image-library .item > .selected-check:hover:before {
+    content: "\f068";
+}
+#image-library .media-item.ui-selected > .item > .selected-check {
+    display: block;
+}
+#image-library .library-right .media-details {
+    padding: 15px;
+}
+#image-library .media-details .row {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 15px;
+}
+#image-library .library-right .media-form {
+    padding: 15px;
+}
+#image-library .library-right h3 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666666;
+}
+#image-library .library-right h4 {
+    font-weight: 700;
+    color: #464646;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+#image-library .library-right label {
+    padding-top: 5px;
+    font-weight: normal;
+    color: #777777;
+    text-align: left;
+}
+#add-new-media {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 44px;
+    background-color: #ffffff;
+}
+#add-new-media .dropzone {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    border: 5px dashed #eeeeee;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+    padding: 25px;
+}
+@media (max-width: 1200px) {
+    #image-library .media-item {
+        width: 25%;
+    }
+}
+@media (max-width: 979px) {
+    #image-library .media-item {
+        width: 33.333%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #image-browser .browser-menu {
+        top: 44px;
+        left: -300px;
+    }
+    #image-browser .browser-menu.visible {
+        left: 0;
+    }
+    #image-browser .browser-content {
+        left: 0;
+    }
+    #image-browser .toggle-menu {
+        display: block;
+    }
+}
+@media (max-width: 640px) {
+    #image-browser .library-right {
+        z-index: 1900;
+        bottom: 120%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-bottom: 0;
+        top: 50px;
+    }
+    #image-browser.visible-lr .library-right {
+        bottom: 55px;
+    }
+    #image-browser .media-filter,
+    #image-browser .library-left {
+        right: 0;
+    }
+    #image-browser.visible-lr .library-left {
+        right: 267px;
+    }
+    #image-browser .media-item {
+        width: 33.333%;
+    }
+    #image-browser.visible-lr .media-item {
+        width: 50%;
+    }
+}
+@media (max-width: 479px) {
+    #image-browser .library-right {
+        width: 200px;
+    }
+    #image-browser.visible-lr .library-left {
+        right: 200px;
+    }
+    #image-browser .media-item {
+        width: 50%;
+    }
+    #image-browser.visible-lr .media-item {
+        width: 100%;
+    }
+    #image-browser .browser-nav-tabs span {
+        display: none;
+    }
+}
+@media (max-width: 319px) {
+    #image-browser.visible-lr .library-left {
+        right: 0;
+    }
+}

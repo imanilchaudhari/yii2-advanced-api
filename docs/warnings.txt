@@ -1,0 +1,108 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 31
+            [file] => api/models/User.php
+            [message] => No docblock for element '$password'
+        )
+
+    [1] => Array
+        (
+            [line] => 31
+            [file] => api/models/User.php
+            [message] => No short description for element '$password'
+        )
+
+    [2] => Array
+        (
+            [line] => 32
+            [file] => api/models/User.php
+            [message] => No docblock for element '$password_old'
+        )
+
+    [3] => Array
+        (
+            [line] => 32
+            [file] => api/models/User.php
+            [message] => No short description for element '$password_old'
+        )
+
+    [4] => Array
+        (
+            [line] => 33
+            [file] => api/models/User.php
+            [message] => No docblock for element '$password_repeat'
+        )
+
+    [5] => Array
+        (
+            [line] => 33
+            [file] => api/models/User.php
+            [message] => No short description for element '$password_repeat'
+        )
+
+    [6] => Array
+        (
+            [line] => 34
+            [file] => api/models/User.php
+            [message] => No docblock for element '$role'
+        )
+
+    [7] => Array
+        (
+            [line] => 34
+            [file] => api/models/User.php
+            [message] => No short description for element '$role'
+        )
+
+    [8] => Array
+        (
+            [line] => 85
+            [file] => api/models/User.php
+            [message] => No docblock for element 'validateUsername'
+        )
+
+    [9] => Array
+        (
+            [line] => 226
+            [file] => api/models/User.php
+            [message] => No docblock for element 'getFullname'
+        )
+
+    [10] => Array
+        (
+            [line] => 5
+            [file] => api/modules/v1/Module.php
+            [message] => No docblock for element 'api\modules\v1\Module'
+        )
+
+    [11] => Array
+        (
+            [line] => 7
+            [file] => api/modules/v1/Module.php
+            [message] => No docblock for element 'init'
+        )
+
+    [12] => Array
+        (
+            [line] => 26
+            [file] => api/modules/v1/controllers/PageController.php
+            [message] => No docblock for element '$modelClass'
+        )
+
+    [13] => Array
+        (
+            [line] => 26
+            [file] => api/modules/v1/controllers/PageController.php
+            [message] => No short description for element '$modelClass'
+        )
+
+    [14] => Array
+        (
+            [line] => 28
+            [file] => api/modules/v1/controllers/PageController.php
+            [message] => No docblock for element 'behaviors'
+        )
+
+)
